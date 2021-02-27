@@ -16,7 +16,7 @@ Exercise 2:
 
 // Complete Exercise 2 below...
 
-
+foods.push("pizza", "cheeseburger");
 
 console.log('Exercise 2 Result:\n',  foods);
 
@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift("taco");
 
 console.log('Exercise 3 Result:\n', foods);
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+const favFood = foods[1];
 
 console.log('Exercise 4 Result:\n', favFood);
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(2,0,"tofu");
 
 console.log('Exercise 5 Result:\n', foods);
 
@@ -60,6 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
+foods.splice(0,1, "sushi", "cupcake");
 
 
 console.log('Exercise 6 Result:\n', foods);
@@ -72,6 +73,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
+const yummy = foods.slice(0,2);
 
 
 console.log('Exercise 7 Result:\n', yummy);
@@ -83,7 +85,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+const soyIdx = foods.indexOf("tofu");
 
 console.log('Exercise 8 Result:\n', soyIdx);
 
@@ -95,7 +97,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+const allFoods = foods.join("->");
 
 console.log('Exercise 9 Result:\n', allFoods);
 
