@@ -173,10 +173,9 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-const numList = numArrays.pop();
 // Complete Exercise 13 below...
 
-
+const numList = numArrays[numArrays.length -1];
 
 console.log('Exercise 13 Result:\n', numList);
 
@@ -198,6 +197,10 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+
+let total = 0;
+
+numArrays.forEach(item => item.forEach(number => total += number));
 
 
 
